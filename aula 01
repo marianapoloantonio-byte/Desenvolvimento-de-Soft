@@ -1,0 +1,68 @@
+
+
+using System;
+using System.Globalization;
+class Program
+{
+    static void Main (string[] args)
+    {
+        /*Console.WriteLine("Ola Mundo");
+        //ex1 NOME IDADE
+       // Console.WriteLine("nome:");
+       // String nome = Console.ReadLine();
+       // Console.WriteLine("idade:");
+       // int idade = int.Parse(Console.ReadLine());
+
+      //  Console.WriteLine (nome);
+      /* Console.WriteLine (idade);
+       
+       //exs 2 VEREFICA A IDADE
+        //if (idade >= 18)
+        //{
+          //  Console.WriteLine("Pode dirigir. VRUMMMM");
+        //}
+        //else
+        //{
+          //  Console.WriteLine("TA MALUCO?! Pode dirigir NAO.");
+        //}
+
+        //exs 3 NOME PRODUTO  E DA DESCONTO DE 10%
+ 
+        //Console.WriteLine("Produto");
+        //String nomeProduto = Console.ReadLine();
+        //Console.WriteLine("preco:");
+        //double preco = double.Parse(Console.ReadLine());
+        //double precoCmDesconto = preco * 0.9;
+        //Console.WriteLine(nomeProduto);
+        //Console.WriteLine(precoCmDesconto);
+        
+
+        //ex04 FOR
+
+        //for (int  i = 0; i< 10; i++)
+        //{
+          //  Console.WriteLine(i);
+        //}
+
+        //exs 5 RECEBE UM NUMERO E MOSTRA A TABUADA
+
+        Console.WriteLine("num");
+        int num =  int.Parse(Console.ReadLine());
+
+        for( int i = 0 ; i <=10; i++)
+        {
+           Console.WriteLine(num * i );
+        }
+         //ex 06 Recebe numero menor q 20 e divisivel por menor ou = a 100
+
+        if( num <= 20)
+        {
+            
+        }
+
+
+        //ex 07 conte numero que atende a condicao acima 
+
+
+    }
+}
