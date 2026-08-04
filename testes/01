@@ -1,0 +1,101 @@
+class Progam
+{
+  static void Main (string[] args)
+    {
+        //nome e idade
+        Console.WriteLine("Digite seu nome:");
+        string nome = Console.ReadLine();
+
+        Console.WriteLine("Digite sua idade:");
+        int idade = int.Parse(Console.ReadLine());
+        
+        Console.WriteLine("---------------");
+        Console.WriteLine(nome);
+        Console.WriteLine(idade);
+        Console.WriteLine("---------------");
+
+        // se a idade for maior que 16 entra no parque
+        if(idade >= 16)
+        {
+            Console.WriteLine("Bem Vindo(a)"+ nome + "! Voce pode entra no parque");
+        }
+        else
+        {
+            Console.WriteLine("Bem Vindo (a)" + nome +"! Voce nao pode entra.");
+        }
+         Console.WriteLine("---------------");
+
+        // verefica se o numero e par o impar
+         Console.WriteLine("Digite um numero para ver se é Par ou Impar");
+         int num = int.Parse(Console.ReadLine());
+        // o % 2 e para ver o RESTO, sempre usado pra impar o par
+         if( num % 2 == 0)
+        {
+            Console.WriteLine("é par, vai tomando");
+        }
+        else
+        {
+            Console.WriteLine("é impar, ixi");
+        }
+        //NUMERO maior que 0 menor que 100 e dividido por 5 e valido ou nao
+        Console.WriteLine("---------------");
+
+        Console.WriteLine("digite um numero para ver se e valido!");
+        int numero = int.Parse(Console.ReadLine());
+
+        if( numero > 0 && numero <= 100 && numero % 5 == 0)
+        {
+            Console.WriteLine("Numero Valido!");
+        }
+        else
+        {
+            Console.WriteLine("Numero invalido!");
+        }
+
+        //nome idade altura, se a idade for mair q 18 e altura 1.60 ele pode brincar
+        Console.WriteLine("---------------");
+
+        Console.WriteLine("digite o nome, meu bem");
+        string nom = Console.ReadLine();
+        
+        Console.WriteLine("quantos, anos?");
+        int idad = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("qual altura?");
+        double altura = double.Parse(Console.ReadLine());
+
+        Console.WriteLine("---------------");
+        Console.WriteLine(nom);
+        Console.WriteLine(idad);
+        Console.WriteLine(altura);     
+         Console.WriteLine("---------------");
+
+        if( idad >= 18 && altura >= 1.60)
+        {
+            Console.WriteLine("Pode brinca, upppiiii");
+        }
+        else
+        {
+            Console.WriteLine("Nao pode brincar!");
+        }   
+
+          Console.WriteLine("---------------");
+         Console.WriteLine("digite um num");
+         int nu = int.Parse(Console.ReadLine());
+
+         if ( nu % 3 == 0 )
+        {
+            Console.WriteLine("Fizz");
+        }
+        else if (nu % 5 ==0)
+        {
+            Console.WriteLine("Buzz");
+        }
+        else if(numero % 3 == 0 && numero % 5 == 0)
+        {
+            Console.WriteLine("FizzBuzz");
+        }
+    
+    }
+
+}
