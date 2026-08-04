@@ -1,68 +1,68 @@
-
-
-using System;
-using System.Globalization;
-class Program
+class Progam
 {
-    static void Main (string[] args)
+  static void Main (string[] args)
     {
-        /*Console.WriteLine("Ola Mundo");
-        //ex1 NOME IDADE
-       // Console.WriteLine("nome:");
-       // String nome = Console.ReadLine();
-       // Console.WriteLine("idade:");
-       // int idade = int.Parse(Console.ReadLine());
 
-      //  Console.WriteLine (nome);
-      /* Console.WriteLine (idade);
-       
-       //exs 2 VEREFICA A IDADE
-        //if (idade >= 18)
-        //{
-          //  Console.WriteLine("Pode dirigir. VRUMMMM");
-        //}
-        //else
-        //{
-          //  Console.WriteLine("TA MALUCO?! Pode dirigir NAO.");
-        //}
+    Console.WriteLine("nome:");
+    string nome = Console.ReadLine();
 
-        //exs 3 NOME PRODUTO  E DA DESCONTO DE 10%
- 
-        //Console.WriteLine("Produto");
-        //String nomeProduto = Console.ReadLine();
-        //Console.WriteLine("preco:");
-        //double preco = double.Parse(Console.ReadLine());
-        //double precoCmDesconto = preco * 0.9;
-        //Console.WriteLine(nomeProduto);
-        //Console.WriteLine(precoCmDesconto);
+    Console.WriteLine("idade:");
+    int idade = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("-------------------");
+        Console.WriteLine (nome);
+        Console.WriteLine (idade);
+        Console.WriteLine("-------------------");
+
+    if(idade >=18)
+        {
+            Console.WriteLine("pode fazer vrummm vrummm");
+        }
+    else
+        {
+            Console.WriteLine("TA maluco carai pode nao");
+        }
+
+        //desconto de 10%
+
+        Console.WriteLine("Produto:");
+        string produto = Console.ReadLine();
+
+        Console.WriteLine("preco:");
+        double preco = double.Parse(Console.ReadLine());
+        double precoDesconto = preco * 0.9;
+
+        Console.WriteLine("-------------------");
+        Console.WriteLine(produto);
+        Console.WriteLine(precoDesconto);
+        Console.WriteLine("-------------------");
+        //exs de tabuada 
+        Console.WriteLine("Digite um numero para a tabuada");
+        int numero = int.Parse(Console.ReadLine());
+
+        for( int i = 0; i <= 10 ; i++)
+        {
+            Console.WriteLine(numero * i);
+        }
+             Console.WriteLine("-------------------");
+        //exs de menor q 20 e divisivel por menor ou = a 100
+
+        Console.WriteLine("outro numero para a divisao,MENOR que 20");
+        int num = int.Parse(Console.ReadLine());
+
+         if( num <= 20 && num % 10 == 0 )
+        {
+            Console.WriteLine("e divisivel");
+        }
+        else
+        {
+            Console.WriteLine("nao e divisivel");
+        }
         
-
-        //ex04 FOR
-
-        //for (int  i = 0; i< 10; i++)
-        //{
-          //  Console.WriteLine(i);
-        //}
-
-        //exs 5 RECEBE UM NUMERO E MOSTRA A TABUADA
-
-        Console.WriteLine("num");
-        int num =  int.Parse(Console.ReadLine());
-
-        for( int i = 0 ; i <=10; i++)
-        {
-           Console.WriteLine(num * i );
-        }
-         //ex 06 Recebe numero menor q 20 e divisivel por menor ou = a 100
-
-        if( num <= 20)
-        {
-            
-        }
-
+         Console.WriteLine("-------------------");
 
         //ex 07 conte numero que atende a condicao acima 
 
-
     }
+
 }
