@@ -1,0 +1,26 @@
+class Progam
+{
+  static void Main (string[] args)
+    {
+Console.WriteLine("-------------------------");
+            Console.WriteLine("Qual numero é maior?");
+            Console.WriteLine("Digite seu numero:");
+            int nume = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite seu segundo numero:");
+            int numer = int.Parse(Console.ReadLine());
+        Console.WriteLine("-------------------------");
+
+            if( nume > numer)
+            {
+                 Console.WriteLine("Numero maior é:" + nume);
+            }
+            else if(numer > nume)
+            {
+                Console.WriteLine("Numero maior é:" + numer);
+            }
+            else 
+            {
+                Console.WriteLine("Numeros sao iguais!");
+            }
+        }
+}
