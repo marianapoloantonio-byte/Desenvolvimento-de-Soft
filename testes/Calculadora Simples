@@ -1,9 +1,4 @@
-class Progam
-{
-  static void Main (string[] args)
-    {
-
-Console.WriteLine("-------------------------");
+ Console.WriteLine("-------------------------");
              Console.WriteLine("Calculadora Simples");
             Console.WriteLine("Digite seu numero:");
             int nu = int.Parse(Console.ReadLine());
@@ -22,23 +17,25 @@ Console.WriteLine("-------------------------");
           if( operacao == "+")
         {
             int resultado = nun + nu;
-            Console.WriteLine("A soma é" + resultado);
+            Console.WriteLine("O resultado é" + resultado);
         }
          else if( operacao == "-")
         {
             int resultado = nun - nu;
-            Console.WriteLine("A soma é" + resultado);
+            Console.WriteLine("O resultado é" + resultado);
         }
          else if( operacao == "*")
         {
             int resultado = nun * nu;
-            Console.WriteLine("A soma é" + resultado);
+            Console.WriteLine("O resultado é" + resultado);
         }
          else if( operacao == "/")
         {
-            int resultado = nu / nun;
-            Console.WriteLine("A soma é" + resultado);
+            int resultado = nun / nu;
+            Console.WriteLine("O resultado é" + resultado);
         }
-}
-}
+        else
+            {
+                Console.WriteLine("Operação inválida.");
+            }
          
